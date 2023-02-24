@@ -48,6 +48,10 @@ body {
     letter-spacing: 2px;
 }
 
+.wrapper .mainpagelogo {
+    width: 60%;
+}
+
 .welcome-sign {
     display: block;
     margin: 0 auto;
@@ -114,6 +118,13 @@ body {
         width: 75%;
         padding: 20px 40px;
         border-radius: 10px;
+    }
+    .wrapper .mainpagelogo {
+        width: 90%;
+    }
+
+    .wrapper h4{
+        font-size: 20px;
     }
 }
 
