@@ -6,9 +6,6 @@ body {
 */
 
 
-.nav {
-    width: 100%;
-}
 
 /*
 .backgroundimage1 {
@@ -39,6 +36,11 @@ body {
     overflow: hidden;
 }
 
+.nav {
+    width: 100%;
+    z-index: 4;
+}
+
 .wrapper {
     height: 100vh;
     width: 100%;
@@ -53,15 +55,23 @@ body {
     text-align: center;
 }
 
+
 .wrapper h2{
     color: white;
     text-align: center;
     font-size: 75px;
-  /*  font-family: poppins;   -----Not yet loaded */
-    font-weight: relative;
+    font-family: poppins;  
+    position: relative;
     z-index: 4;
     letter-spacing: 2px;
 }
+
+.wrapper button {
+    position: relative;
+    z-index: 4;
+}
+
+
 .single-img {
     background-image: url("/images/page3_1.jpg");
     background-repeat: no-repeat;
