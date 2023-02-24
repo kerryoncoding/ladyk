@@ -10,11 +10,10 @@ body {
 
 .backgroundimage1 {
     display: block;
-    margin: 50 auto;
-    border: solid 2px goldenrod;
-    border-radius: 10px;
-    background-image: url("images/page3_1.jpg");
-    width: 600px;
+    margin: 0 auto;
+    background-image: url("/images/page3_1.jpg");
+    opacity: 75%;
+    width: 100%;
     background-size: cover;
     font-weight: bold;
     color: white;
