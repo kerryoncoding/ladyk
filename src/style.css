@@ -38,7 +38,7 @@ body {
 
 .nav {
     width: 100%;
-    z-index: 4;
+    z-index: 10;
 }
 
 .wrapper {
@@ -86,7 +86,7 @@ body {
     top: 0;
     left: 0;
     right: 0; 
-    z-index: 0; 
+    z-index: -4; 
 }
 
 @keyframes animate {
