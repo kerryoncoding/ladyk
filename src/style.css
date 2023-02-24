@@ -15,7 +15,7 @@ body {
 }
 
 .nav {
-    width: 100%;
+    width: 100vw;
     z-index: 10;
 }
 
@@ -104,5 +104,17 @@ body {
     }
 }
 
+
+
+@media screen and (max-width: 900px) {
+    .welcome-sign {
+        display: block;
+        margin: 0 auto;
+        background-color: rgba(var(--color-four), 0.4);
+        width: 75%;
+        padding: 20px 40px;
+        border-radius: 10px;
+    }
+}
 
 
