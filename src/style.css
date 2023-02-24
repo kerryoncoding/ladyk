@@ -51,13 +51,15 @@ body {
 .welcome-sign {
     display: block;
     margin: 0 auto;
-    background-color: rgba(var(--color-four), 0.6);
-    width: 600px;
+    background-color: rgba(var(--color-four), 0.4);
+    width: 50%;
     padding: 20px 40px;
     border-radius: 10px;
 }
 
 .wrapper button {
+    background-color: var(--color-one);
+    color: rgba(var(--color-four));
     opacity: 100%;
     margin-top: 20px;
     position: relative;
