@@ -112,14 +112,7 @@ body {
 
 @media screen and (max-width: 900px) {
 
-    .wrapper {
-            height: 100vh;
-            width: 100%;
-            top: 0;
-            position: relative;
-            display: block;
-            margin-top: 50px;
-        }
+
 
     .welcome-sign {
         display: block;
