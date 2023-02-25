@@ -117,7 +117,7 @@ body {
     .welcome-sign {
         display: block;
         margin: 0 auto;
-        background-color: rgba(var(--color-four), 0.4);
+        background-color: rgba(var(--color-four), 0.7);
         width: 75%;
         padding: 20px 40px;
         border-radius: 10px;
