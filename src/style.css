@@ -8,7 +8,7 @@
     --color-four: 184, 225, 221;
 }
 
-body {
+body .wrapper{
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -92,6 +92,21 @@ body {
     left: 0;
     right: 0; 
     z-index: -4; 
+}
+
+.workpagehero {
+    background-color: rgba(var(--color-four));
+}
+
+.workpagehero h1 {
+    padding-top: 150px;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: var(--color-three);
+    border: 2px solid var(--color-one);
+    color: var(--color-one);
 }
 
 @keyframes animate {
