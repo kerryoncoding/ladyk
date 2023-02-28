@@ -5,6 +5,62 @@
     --color-one: #062925;
     --color-two: #044a42;
     --color-three: #3a9188;
-    --color-four: 184, 225, 221;
+    --color-four: #b8e1dd;
 }
 
+.hero{
+    padding-left: 50px;
+    padding-top: 25px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.social-links{
+    color: var(--color-one);
+    font-size: 20px;
+}
+
+.social-links i{
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+
+.navigation{
+    font-size: 18pt;
+    list-style-type:none;
+    margin: 0;
+}
+
+.hero a{
+    color: var(--color-one);
+}
+
+.hero a:hover{
+    color: var(--color-three);
+}
+
+
+.navigation a{
+    text-decoration: none;
+    color: var(--color-two);
+    padding: 5px 15px;
+    line-height: 1.8;
+}
+
+
+.navigation a:hover{
+    background-color: var(--color-four);
+    border-radius: 4px;
+}
+
+.btn-slideshow {
+    background-color: var(--color-one);
+    color: var(--color-four);
+}
+
+.btn-slideshow:hover {
+    background-color: var(--color-two);
+    color: var(--color-four);
+    
+}
