@@ -8,7 +8,7 @@
     --color-four: #b8e1dd;
 }
 
-.hero{
+.logo{
     padding-left: 50px;
     padding-top: 25px;
     max-width: 250px;
@@ -16,8 +16,10 @@
 }
 
 .social-links{
+    text-align: right;
     color: var(--color-one);
     font-size: 20px;
+    padding-top: 20px;
 }
 
 .social-links i{
