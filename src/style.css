@@ -11,9 +11,13 @@
 .logo{
     padding-left: 50px;
     padding-top: 25px;
-    max-width: 250px;
-    text-align: center;
+    text-align: left;
 }
+
+.logo img{
+    max-width: 250px;
+}
+
 
 .social-links{
     text-align: right;
